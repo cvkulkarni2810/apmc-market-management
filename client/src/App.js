@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './header/navbar';
+import React from 'react';
+import LotPendCommTable from './commission_agent/lot_actionpend_table';
+import OngoingAuctionTable from './commission_agent/ongoing_auction_table';
+import PreviousLotTable from './commission_agent/previous_lot_table';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <LotPendCommTable/>
+      <OngoingAuctionTable/>
+      <PreviousLotTable/>
     </div>
   );
 }
