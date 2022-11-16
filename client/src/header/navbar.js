@@ -91,7 +91,7 @@ export default function NavBar() {
                 <div className="hidden space-x-2 md:inline-block">
                     <p>
                         <b>
-                        Hi Vaidehi!<br></br>
+                        Hi Chaitanya!<br></br>
                         CA ID: 2001
                         </b>
                     </p>
