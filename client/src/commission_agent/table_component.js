@@ -1,7 +1,7 @@
 import React from "react";
 import { useTable } from 'react-table'
 import './table_component.css'
- 
+import '../materialTableIcons'
 export default  function LotTable() {
    const data = React.useMemo(
      () => [

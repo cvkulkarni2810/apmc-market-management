@@ -5,9 +5,11 @@ export default function NavBar() {
 
     return (
         <nav className="w-full bg-header-img shadow">
+           
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
-                    <div className="flex items-center justify-between py-3 md:py-5 md:block">
+                    <div className="flex items-center justify-between py-3 md:py-5 md:block" >
+                     
                         <a href="javascript:void(0)">
                             <h4 className="text-2l font-bold text-white">Agricultural Produce Market Committee, Pune </h4>
                         </a>
@@ -55,19 +57,20 @@ export default function NavBar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">My Dashboard</a>
+                            <li className="text-white hover:text-indigo-200  font-semibold">
+                                <a href="javascript:void(0)">Home</a>
+                                
                             </li>
-                            <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">My Lots</a>
+                            <li className="text-white hover:text-indigo-200 font-semibold ">
+                                <a href="javascript:void(0)">Dashboard</a>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Profile</a>
+                            <li className="text-white hover:text-indigo-200 font-semibold">
+                                <a href="javascript:void(0)">About</a>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Grievance</a>
+                            <li className="text-white hover:text-indigo-200 font-semibold">
+                                <a href="javascript:void(0)">Register</a>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-white hover:text-indigo-200 font-semibold">
                                 <a href="javascript:void(0)">Contact</a>
                             </li>
                         </ul>
@@ -88,11 +91,11 @@ export default function NavBar() {
                 </div> */}
                     </div>
                 </div>
-                <div className="hidden space-x-2 md:inline-block">
+                <div className="hidden space-x-4 md:inline-block">
                     <p>
                         <b>
-                        Hi Chaitanya!<br></br>
-                        CA ID: 2001
+                        {/* Hi Chaitanya!<br></br>
+                        CA ID: 2001 */}
                         </b>
                     </p>
                 </div>
